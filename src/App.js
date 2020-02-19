@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Category from './Category'
+import Section1 from './Section1'
+import Translation from './Translation'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <i className="fas fa-plus fa-3x" style={{color:"red"}}></i> */}
+      <Category />
+      <Section1 />
+      <Translation />
     </div>
   );
 }

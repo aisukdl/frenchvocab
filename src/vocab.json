@@ -1,0 +1,5 @@
+{
+    "animals":[{"word" : "cat", "meaning":"goes meow"},
+    {"word":"cow" ,"meaning": "goes moo"},
+    {"word":"dog","meaning": "goes woof"}]
+}
