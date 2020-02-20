@@ -4,8 +4,8 @@ import vocab from './vocab.json';
 function Word(prop) {
     return (
       <div>
-        <h1>{vocab.animals[prop.match.params.words].word}</h1>
-        <h2>{vocab.animals[prop.match.params.words].meaning}</h2>
+        <h1>{vocab[prop.match.params.category][prop.match.params.index].word}</h1>
+        <h2>{vocab[prop.match.params.category][prop.match.params.index].meaning}</h2>
       </div>
       
     );

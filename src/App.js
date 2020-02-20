@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/Category"><Section1 /></Route>
           {/* <Translation /> */}
-          <Route path="/Word/:words" component={Word} />
+          <Route path="/:category/:index" component={Word} />
+          <Route path="/:category"><Section1 /></Route>
           <Route path="/"><Category /></Route>
         </Switch>
       </Router>

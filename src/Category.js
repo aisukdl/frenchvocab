@@ -7,26 +7,26 @@ function Category() {
           <div className="category-container">
                 <div className="vertical-container">
                     <div className="horizontal-container">
-                    <Link to="/Category">
+                    <Link to="/:category">
                       <div className="box" />
                     </Link>
-                    <Link to="/:Category">
-                      <div className="box" />
-                    </Link>
-                    </div>
-                    <div className="horizontal-container">
-                    <Link to="/:Category">
-                      <div className="box" />
-                    </Link>
-                    <Link to="/:Category">
+                    <Link to="/:category">
                       <div className="box" />
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/:Category">
+                    <Link to="/:category">
                       <div className="box" />
                     </Link>
-                    <Link to="/:Category">
+                    <Link to="/:category">
+                      <div className="box" />
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/:category">
+                      <div className="box" />
+                    </Link>
+                    <Link to="/:category">
                       <div className="box" />
                     </Link>
                     </div>

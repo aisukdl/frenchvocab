@@ -5,10 +5,10 @@ import { Route,Link } from 'react-router-dom';
 
 
 function Section1() {
-  function getWords(){
+  function getWords(prop){
     const words = [];
-    for (let index = 0; index < vocab.animals.length; index++) {
-      words.push(vocab.animals[index].word);
+    for (let index = 0; index < vocab.food.length; index++) {
+      words.push(vocab.food[index].word);
       
     }
     return words
@@ -17,7 +17,7 @@ function Section1() {
     return (
       <div className="container">
         {words.map(item => {
-          return <p><Link to="/Word/1">{item}</Link></p>;
+          return <p><Link to="/food/0">{item}</Link></p>;
         })}
       </div>
     );
