@@ -17,7 +17,7 @@ function Section1() {
     return (
       <div className="container">
         {words.map(item => {
-          return <p><Link to="/Word">{item}</Link></p>;
+          return <p><Link to="/Word/1">{item}</Link></p>;
         })}
       </div>
     );
