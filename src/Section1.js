@@ -1,6 +1,7 @@
 import React from 'react';
 import vocab from './vocab.json';
 import './section1.css'
+import { Route,Link } from 'react-router-dom';
 
 
 function Section1() {
@@ -16,7 +17,7 @@ function Section1() {
     return (
       <div className="container">
         {words.map(item => {
-          return <p>{item}</p>;
+          return <p><Link to="/Word">{item}</Link></p>;
         })}
       </div>
     );

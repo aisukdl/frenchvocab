@@ -1,16 +1,23 @@
 import React from 'react';
 import './App.css';
-import Category from './Category'
-import Section1 from './Section1'
-import Translation from './Translation'
+import Category from './Category';
+import Section1 from './Section1';
+import Translation from './Translation';
+import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
+import Word from './Word'
+
 
 function App() {
   return (
     <div className="App">
-      {/* <i className="fas fa-plus fa-3x" style={{color:"red"}}></i> */}
-      <Category />
-      <Section1 />
-      <Translation />
+      <Router>
+        <Switch>
+          <Route path="/Category"><Section1 /></Route>
+          {/* <Translation /> */}
+          <Route path="/Word"><Word /></Route>
+          <Route path="/"><Category /></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

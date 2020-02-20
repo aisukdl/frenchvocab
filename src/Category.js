@@ -1,21 +1,34 @@
 import React from 'react';
 import './Category.css'
+import {Link} from 'react-router-dom';
 function Category() {
     return (
       <div className="container">
           <div className="category-container">
                 <div className="vertical-container">
                     <div className="horizontal-container">
-                    <div className="box" />
-                    <div className="box" />
+                    <Link to="/Category">
+                      <div className="box" />
+                    </Link>
+                    <Link to="/:Category">
+                      <div className="box" />
+                    </Link>
                     </div>
                     <div className="horizontal-container">
-                    <div className="box" />
-                    <div className="box" />
+                    <Link to="/:Category">
+                      <div className="box" />
+                    </Link>
+                    <Link to="/:Category">
+                      <div className="box" />
+                    </Link>
                     </div>
                     <div className="horizontal-container">
-                    <div className="box" />
-                    <div className="box" />
+                    <Link to="/:Category">
+                      <div className="box" />
+                    </Link>
+                    <Link to="/:Category">
+                      <div className="box" />
+                    </Link>
                     </div>
                 </div>
           </div>
