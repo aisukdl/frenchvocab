@@ -4,20 +4,20 @@ import './section1.css'
 import { Route,Link } from 'react-router-dom';
 
 
-function Section1() {
+function Section1(prop) {
   function getWords(prop){
     const words = [];
-    for (let index = 0; index < vocab.food.length; index++) {
-      words.push(vocab.food[index].word);
+    for (let index = 0; index < vocab[prop.match.params.category].length; index++) {
+      words.push(vocab[prop.match.params.category][index].word);
       
     }
     return words
   }
-   const words = getWords();
+   const words = getWords(prop);
     return (
       <div className="container">
-        {words.map(item => {
-          return <p><Link to="/food/0">{item}</Link></p>;
+        {words.map((item,id) => {
+          return <p><Link to={`/:category/${id}`}>{item}</Link></p>;
         })}
       </div>
     );

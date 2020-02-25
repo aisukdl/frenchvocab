@@ -1,6 +1,217 @@
 {
-    "animals":[{"word" : "cat", "meaning":"goes meow"},
-    {"word":"cow" ,"meaning": "goes moo"},
-    {"word":"dog","meaning": "goes woof"}],
-    "food":[{"word" : "chicken", "meaning":"yummy"}]
+    "diceases":[{"word": "Allergie (nf.)" , "phonetic":"[alɛʀʒi]","thaimeaning": "โรคภูมิแพ้","englishmeaning":"Allergy"}
+        ,{"word": "Abrasion (nf.)" , "phonetic":"[abʀɑzjɔ̃]","thaimeaning": "แผลถลอก","englishmeaning":"Abrasion"}
+        ,{"word": "Avortement (nm.)" , "phonetic":"[avɔʀtəmɑ̃]","thaimeaning": "การแท้ง","englishmeaning":"Abortion"}
+        ,{"word": "Appendicite (nf.)" , "phonetic":"[apɛ̃disit]","thaimeaning": "โรคไส้ติ่งอักเสบ","englishmeaning":"Appendicitis"}
+        ,{"word": "Asthmatique (adj.)" , "phonetic":"[asmatik]","thaimeaning": "โรคหอบหืด, เกี่ยวกับโรคหืด","englishmeaning":"Asthmatic"}
+        ,{"word": "Pied d'athlète (nm.)" , "phonetic":"[pjedatlɛt]","thaimeaning": "โรคน้ำกัดเท้า, เชื้อราที่เท้า, กลากที่เท้า, ฮ่องกงฟุต","englishmeaning":"Athlete’s foot"}
+        ,{"word": "Saignement (adv.)" , "phonetic":"[sɛɲmɑ̃]","thaimeaning": "เลือดออก, ที่มีเลือดไหล","englishmeaning":"Bleeding"}
+        ,{"word": "Boursouflure (nf.)" , "phonetic":"[buʀsuflyʀ]","thaimeaning": "แผลพุพอง, บวม, ปูด, เป็นตุ่ม","englishmeaning":"Blister"}
+        ,{"word": "Contusion (nf.)" , "phonetic":"[kɔ̃tyzjɔ̃]","thaimeaning": "แผลฟกช้ำ, รอยฟกช้ำ","englishmeaning":"Bruise"}
+        ,{"word": "Brûlure (nf.)" , "phonetic":"[bʀylyʀ]","thaimeaning": "แผลที่เกิดจากไฟไหม้, น้ำร้อนลวก","englishmeaning":"Burn"}
+        ,{"word": "Cancer (nm.)" , "phonetic":"[kɑ̃sɛʀ]","thaimeaning": "โรคมะเร็ง","englishmeaning":"Cancer"}
+        ,{"word": "Chronique (nf.)" , "phonetic":"[kʀɔnik]","thaimeaning": "โรคเรื้อรัง, เป็นมานาน","englishmeaning":"Chronic"}
+        ,{"word": "Cirrhose (nf.)" , "phonetic":"[siʀoz]","thaimeaning": "โรคตับแข็ง","englishmeaning":"Cirrhosis"}
+        ,{"word": "Rhume (nm.)" , "phonetic":"[ʀym]","thaimeaning": "โรคหวัด, ไข้หวัด, หนาว","englishmeaning":"Cold"}
+        ,{"word": "Coma (nm.)" , "phonetic":"[kɔma]","thaimeaning": "ภาวะหมดสติ ไม่รู้สึกตัว","englishmeaning":" Coma"}
+        ,{"word": "Complication (nf.)" , "phonetic":"[kɔ̃plikasjɔ̃]","thaimeaning": "โรคแทรกซ้อน","englishmeaning":"Complication"}
+        ,{"word": "Conjonctivite (nf.)" , "phonetic":"[kɔ̃ʒɔ̃ktivit]","thaimeaning": "เยื่อตาขาวอักเสบ, โรคตาแดง","englishmeaning":"Conjunctivitis"}
+        ,{"word": "Constipation (nf.)" , "phonetic":"[kɔ̃stipasjɔ̃]","thaimeaning": "อาการท้องผูก","englishmeaning":"Constipation"}
+        ,{"word": "toux (nf.)" , "phonetic":"[tu]","thaimeaning": "อาการไอ","englishmeaning":"cough"}
+        ,{"word": "Difformité (nf.)" , "phonetic":"[difɔʀmite]","thaimeaning": "การผิดรูป","englishmeaning":"Deformities"}
+        ,{"word": "Déshydratation (nf.)" , "phonetic":"[dezidʀatasjɔ̃]","thaimeaning": "อาการที่ร่างกายขาดน้ำ, การเสียน้ำของร่างกาย","englishmeaning":"Dehydration"}
+        ,{"word": "Dépression (nf.)" , "phonetic":"[depʀesjɔ̃]","thaimeaning": "โรคซึมเศร้า","englishmeaning":"Depression"}
+        ,{"word": "Diabète (nm.)" , "phonetic":"[djabɛt]","thaimeaning": "โรคเบาหวาน","englishmeaning":"Diabetes"}
+        ,{"word": "Diarrhée (nf.)" , "phonetic":"[djaʀe]","thaimeaning": "อาการท้องร่วง","englishmeaning":"Diarrhea"}
+        ,{"word": "Diphtérie (nf.)" , "phonetic":"[difteʀi]","thaimeaning": "โรคคอตีบ","englishmeaning":"Diphtheria"}
+        ,{"word": "Dyspepsie (nf.)" , "phonetic":"[dispɛpsi]","thaimeaning": "อาการอาหารไม่ย่อย, โรคธาตุพิการ","englishmeaning":"Dyspepsia"}
+        ,{"word": "Entérite (nf.)" , "phonetic":"[ɑ̃teʀit]","thaimeaning": "โรคลำไส้อักเสบ","englishmeaning":"Enteritis"}
+        ,{"word": "Fatigue des yeux (nf.)" , "phonetic":"[fatigdeˈjø]","thaimeaning": "อาการเพลียตา","englishmeaning":"Eyestrain"}
+        ,{"word": "Fièvre (nf.)" , "phonetic":"[fjɛvʀ]","thaimeaning": "ไข้, ไข้หวัด","englishmeaning":"Fever"}
+        ,{"word": "Intoxication alimentaire (nf.)" , "phonetic":"[ɛ̃tɔksikasjɔ̃alimɑ̃tɛʀ]","thaimeaning": "อาหารเป็นพิษ","englishmeaning":"Food poisoning"}
+        ,{"word": "Fracture (nf.)" , "phonetic":"[fʀaktyʀ]","thaimeaning": "กระดูกร้าว, กระดูกแตก, กระดูกหัก","englishmeaning":"Fracture"}
+        ,{"word": "Gastrite (nf.)" , "phonetic":"[gastʀit]","thaimeaning": "โรคกระเพาะอาหารอักเสบ","englishmeaning":"Gastritis"}
+        ,{"word": "Goutte (nf.)" , "phonetic":"[gut]","thaimeaning": "โรคปวดตามข้อ, โรคไขข้อ, โรคเกาต์","englishmeaning":"Gout"}
+        ,{"word": "Brûlures d'estomac (nf.)" , "phonetic":"[bʀylyʀsdɛstɔma]","thaimeaning": "อาการจุกเสียดแน่นท้อง","englishmeaning":"Heartburn"}
+        ,{"word": "Hoquet (nm.)" , "phonetic":"[ˈɔkɛ]","thaimeaning": "สะอึก, อาการสะอึก","englishmeaning":"Hiccup"}
+        ,{"word": "Enflamé (adj)" , "phonetic":"[ɑ̃flɑme]","thaimeaning": "อักเสบ, บวม, ช้ำ","englishmeaning":"Inflamed"}
+        ,{"word": "Contagion (nf.)" , "phonetic":"[kɔ̃taʒjɔ̃]","thaimeaning": "การติดเชื้อ","englishmeaning":"Infection"}
+        ,{"word": "Insomnia (nf.)" , "phonetic":"[ɛ̃sɔmni]","thaimeaning": "อาการนอนไม่หลับ","englishmeaning":"Insomnia"}
+        ,{"word": "Jaunisse (nf.)" , "phonetic":"[ʒonis]","thaimeaning": "โรคดีซ่าน","englishmeaning":"Jaundice"}
+        ,{"word": "Laceration (nf.)" , "phonetic":"[laseʀasjɔ̃]","thaimeaning": "แผลฉีกขาด","englishmeaning":"Laceration"}
+        ,{"word": "Laryngite (nf.)" , "phonetic":"[laʀɛ̃ʒit]","thaimeaning": "โรคกล่องเสียงอักเสบ","englishmeaning":"Laryngitis"}
+        ,{"word": "Rougeole (nf.)" , "phonetic":"[ʀuʒɔl]","thaimeaning": "โรคหัด, ไข้หัด","englishmeaning":"Measles"}
+        ,{"word": "Difforme (adj.)" , "phonetic":"[difɔʀm]","thaimeaning": "ที่ผิดรูปผิดร่าง, ผิดลักษณะ, ผิดแบบ","englishmeaning":"Misshapen"}
+        ,{"word": "Oreillons (nmpl.)" , "phonetic":"[ɔʀɛjɔ̃]","thaimeaning": "โรคคางทูม","englishmeaning":"Mumps"}
+        ,{"word": "Saigner du nez (nm.)" , "phonetic":"[seɲedyne]","thaimeaning": "อาการเลือดกำเดาไหล","englishmeaning":"Nose bleed"}
+        ,{"word": "Pâle (adj.)" , "phonetic":"[pɑl]","thaimeaning": "ซีด","englishmeaning":"Pale"}
+        ,{"word": "Paralysie (nf.)" , "phonetic":"[paʀalizi]","thaimeaning": "อัมพาต","englishmeaning":"Paralysis"}
+        ,{"word": "Transpirer (vi.)" , "phonetic":"[tʀɑ̃spiʀe]","thaimeaning": "เหงื่อออก, ขับเหงื่อ","englishmeaning":"Perspire"}
+        ,{"word": "Coqueluche (nf.)" , "phonetic":"[kɔklyʃ]","thaimeaning": "โรคไอกรน","englishmeaning":"Pertussis"}
+        ,{"word": "Glaire (nf.)" , "phonetic":"[glɛʀ]","thaimeaning": "เสมหะ","englishmeaning":"Phlegm"}
+        ,{"word": "Pneumonie (nf.)" , "phonetic":"[pnømɔni]","thaimeaning": "โรคปอดอักเสบ, โรคปอดบวม","englishmeaning":"Pneumonia"}
+        ,{"word": "Percer (vtr.)" , "phonetic":"[pɛʀse]","thaimeaning": "แผลจากการแทง","englishmeaning":"Puncture"}
+        ,{"word": "Purulent (adj)" , "phonetic":"[pyʀylɑ̃, ɑ̃t]","thaimeaning": "เป็นหนอง, มีหนอง, คล้ายหนอง","englishmeaning":"Purulent"}
+        ,{"word": "Rubéole (nf.)" , "phonetic":"[ʀybeɔl]","thaimeaning": "โรคหัดเยอรมัน","englishmeaning":"Rubella"}
+        ,{"word": "Nez qui coule (nm.)" , "phonetic":"[ne] [ki] [kul]","thaimeaning": "น้ำมูกไหล","englishmeaning":"Runny nose"}
+        ,{"word": "Mal de gorge (nm.)" , "phonetic":"[mal] [də] [gɔʀʒ]","thaimeaning": "อาการเจ็บคอ","englishmeaning":"Sore throat"}
+        ,{"word": "Entorse (nf.)" , "phonetic":"[ɑ̃tɔʀs]","thaimeaning": "อาการเคล็ด, อาการแพลง, การเคล็ดขัดยอก","englishmeaning":"Sprain"}
+        ,{"word": "Mal de ventre (nm.)" , "phonetic":"[mal] [də] [vɑ̃tʀ]","thaimeaning": "อาการปวดท้อง","englishmeaning":"Stomachache"}
+        ,{"word": "Enflé (adj.)" , "phonetic":"[ɑ̃fle]","thaimeaning": "บวม, ขยายใหญ่, พองตัว","englishmeaning":"Swollen"}
+        ,{"word": "Tétanos (nm.)" , "phonetic":"[tetanos]","thaimeaning": "โรคบาดทะยัก","englishmeaning":"Tetanus"}
+        ,{"word": "Amygdalite (nf.)" , "phonetic":"[amidalit]","thaimeaning": "ภาวะต่อมทอนซิลอักเสบ","englishmeaning":"Tonsillitis"}
+        ,{"word": "Mal aux dents (nm.)" , "phonetic":"[mal] [o] [dɑ̃]","thaimeaning": "การปวดฟัน, อาการปวดฟัน","englishmeaning":"Toothache"}
+        ,{"word": "Évanoui (adj.)" , "phonetic":"[evanwi]","thaimeaning": "ไม่รู้สึกตัว","englishmeaning":"unconscious"}
+        ,{"word": "Vomi (nm.)" , "phonetic":"[vɔmi]","thaimeaning": "การอาเจียน, การอ้วก, การสำรอก","englishmeaning":"Vomit"}
+        ,{"word": "Faible (adj.)" , "phonetic":"[fɛbl]","thaimeaning": "อ่อนเพลีย","englishmeaning":"Weak"}
+        ,{"word": "Coqueluche (nf.)" , "phonetic":"[kɔklyʃ]","thaimeaning": "โรคไอกรน","englishmeaning":"Whooping cough"}],
+    "departments":[{"word": "Service des urgencies (nfpl.)" , "phonetic":"[sɛʀvis] [des] [yʀʒɑ̃s]","thaimeaning": "แผนกฉุกเฉินและอุบัติเหตุ","englishmeaning":"Emergency Room"}
+        ,{"word": "Service des consultations externes (nfpl.)" , "phonetic":" [sɛʀvis] [des] [kɔ̃syltasjɔ̃s] [ɛkstɛʀns]","thaimeaning": "แผนกผู้ป่วยนอก","englishmeaning":"Outpatient Department"}
+        ,{"word": "Service des consultations hospitalisés (nfpl.)" , "phonetic":"[sɛʀvis] [des] [kɔ̃syltasjɔ̃s] [ɔspitalize]","thaimeaning": "แผนกผู้ป่วยใน","englishmeaning":"Inpatient Department"}
+        ,{"word": "Unité de soins intensifs (nfpl.)" , "phonetic":"[ynite] [də] [swɛ̃] [ɛ̃tɑ̃sif, iv]","thaimeaning": "แผนกผู้ป่วยหนัก","englishmeaning":"Intensive Care Unit"}
+        ,{"word": "Service des radiologies (nfpl.)" , "phonetic":"[sɛʀvis] [de] [ʀadjɔlɔʒi]","thaimeaning": "แผนกรังสีกรรม","englishmeaning":"Radiology Department"}
+        ,{"word": "Laboratoire (nm.)" , "phonetic":"[labɔʀatwaʀ]","thaimeaning": "แผนกห้องปฏิบัติการทางการแพทย์","englishmeaning":"Laboratory Department"}
+        ,{"word": "Service de chirurgical (nm.)" , "phonetic":"[sɛʀvis] [de] [ʃiʀyʀʒikal]","thaimeaning": "แผนกศัลยกรรม","englishmeaning":"Surgical Department"}
+        ,{"word": "Service de anesthésie (nf.)" , "phonetic":"[sɛʀvis] [de] [anɛstezi]","thaimeaning": "แผนกวิสัญญี","englishmeaning":"Department of Anaesthesia"}
+        ,{"word": "Service de pédiatrique (nf.)" , "phonetic":"[sɛʀvis] [de] [pedjatʀik]","thaimeaning": "แผนกกุมารเวชกรรม","englishmeaning":"Pediatrics Department"}
+        ,{"word": "Service de gynécologieobstétrique (nf.)" , "phonetic":"[sɛʀvis] [de] [ʒinekɔlɔʒi] [ɔpstetʀik]","thaimeaning": "แผนกสูตินรีเวชกรรม","englishmeaning":"Obstetrics  Gynecology Department"}
+        ,{"word": "Service de thérapie physique (nf.)" , "phonetic":"[sɛʀvis] [de] [teʀapi] [fizik]","thaimeaning": "แผนกเวชศาสตร์ฟื้นฟู","englishmeaning":"Physical Therapy Department"}
+        ,{"word": "Service de médecine (nf.)" , "phonetic":"[sɛʀvis] [de] [med(ə)sin]","thaimeaning": "แผนกอายุรกรรม","englishmeaning":"Medicine Department"}
+        ,{"word": "Service d’ophtalmologie (nf.)" , "phonetic":"[sɛʀvis] [dɔftalmɔlɔʒi]","thaimeaning": "แผนกจักษุ","englishmeaning":"Ophthalmology Department"}
+        ,{"word": "Service d'otorhinolaryngologie (nf.)" , "phonetic":"[sɛʀvis] [dɔtɔʀinolaʀɛ̃gɔlɔʒi]","thaimeaning": "แผนกหู คอ จมูก","englishmeaning":"Ear nose and throat Department"}
+        ,{"word": "Service de pharmaceutique (nf.)" , "phonetic":"[sɛʀvis] [de] [faʀmasøtik]","thaimeaning": "แผนกเภสัชกรรม","englishmeaning":"Pharmaceutical Department"}
+        ,{"word": "Service de psychologie (nf.)" , "phonetic":"[sɛʀvis] [de] [psikɔlɔʒi]","thaimeaning": "แผนกจิตเวช","englishmeaning":"Psychology Department"}],
+    "head":[{"word": "Barbe (nf.)" , "phonetic":"[baʀb]","thaimeaning": "เครา","englishmeaning":"Beard"}
+        ,{"word": "Joue (nf.)" , "phonetic":"[ʒu]","thaimeaning": "แก้ม","englishmeaning":"Cheek"}
+        ,{"word": "Menton (nm.)" , "phonetic":"[mɑ̃tɔ̃]","thaimeaning": "คาง","englishmeaning":"Chin"}
+        ,{"word": "Tête (nf.)" , "phonetic":"[tɛt]","thaimeaning": "ศีรษะ","englishmeaning":"Head"}
+        ,{"word": "Cheveux (nm.)" , "phonetic":"[ʃ(ə)vø]","thaimeaning": "เส้นผม","englishmeaning":"Hair"}
+        ,{"word": "Oreille (nf.)" , "phonetic":"[ɔʀɛj]","thaimeaning": "หู","englishmeaning":"Ear"}
+        ,{"word": "Œil, yeux (nm., nmpl.)" , "phonetic":"[œj, jø]","thaimeaning": "ตา","englishmeaning":"Eye"}
+        ,{"word": "Sourcil (nm.)" , "phonetic":"[suʀsil​, suʀsi]","thaimeaning": "คิ้ว","englishmeaning":"Eyebrow"}
+        ,{"word": "Tympan (nm.)" , "phonetic":"[tɛ̃pɑ̃]","thaimeaning": "เยื่อแก้วหู","englishmeaning":"Eardrum"}
+        ,{"word": "Lobe de l'oreille (nm.)" , "phonetic":"[lɔb] [də] [lɔʀɛj]","thaimeaning": "ใบหู","englishmeaning":"Earlobe"}
+        ,{"word": "Cil (nm.)" , "phonetic":"[sil]","thaimeaning": "ขนตา","englishmeaning":"Eyelash"}
+        ,{"word": "Paupière (nf.)" , "phonetic":"[popjɛʀ]","thaimeaning": "เปลือกตา","englishmeaning":"Eyelid"}
+        ,{"word": "Front (nm.)" , "phonetic":"[fʀɔ̃]","thaimeaning": "หน้าผาก","englishmeaning":"Forehead"}
+        ,{"word": "Tache de rousseur (nf.)" , "phonetic":"[taʃ] [də] [ʀusœʀ]","thaimeaning": "กระ","englishmeaning":"Freckles"}
+        ,{"word": "Mâchoire (nf.)" , "phonetic":"[mɑʃwaʀ]","thaimeaning": "ขากรรไกร","englishmeaning":"Jaw"}
+        ,{"word": "Lèvre (nf.)" , "phonetic":"[lɛvʀ]","thaimeaning": "ริมฝีปาก","englishmeaning":"Lip"}
+        ,{"word": "Bouche (nf.)" , "phonetic":"[buʃ]","thaimeaning": "ปาก","englishmeaning":"Mouth"}
+        ,{"word": "Nez (nm.)" , "phonetic":"[ne]","thaimeaning": "จมูก","englishmeaning":"Nose"}
+        ,{"word": "Narine (nf.)" , "phonetic":"[naʀin]","thaimeaning": "รูจมูก, โพรงจมูก","englishmeaning":"Nostril"}
+        ,{"word": "Moustache (nf.)" , "phonetic":"[mustaʃ]","thaimeaning": "หนวด","englishmeaning":"Moustache"}
+        ,{"word": "Langue (nf.)" , "phonetic":"[lɑ̃g]","thaimeaning": "ลิ้น","englishmeaning":"Tongue"}
+        ,{"word": "Dent (nf.)" , "phonetic":"[dɑ̃]","thaimeaning": "ฟัน","englishmeaning":"Tooth"}
+        ,{"word": "Ride (nf.)" , "phonetic":"[ʀid]","thaimeaning": "ริ้วรอย","englishmeaning":"Wrinkle"}],
+    "upperorgan":[{"word": "Pomme d'Adam (nf.)" , "phonetic":"[pɔm][dadam]","thaimeaning": "ลูกกระเดือก","englishmeaning":"Adam’s apple"}
+        ,{"word": "Bras (nm.)" , "phonetic":"[bʀɑ]","thaimeaning": "แขน","englishmeaning":"Arm"}
+        ,{"word": "Aisselle (nf.)" , "phonetic":"[ɛsɛl]","thaimeaning": "รักแร้","englishmeaning":"Armpit"}
+        ,{"word": "Dos (nm.)" , "phonetic":"[do]","thaimeaning": "หลัง","englishmeaning":"Back"}
+        ,{"word": "Sein (nm.)" , "phonetic":"[sɛ̃]","thaimeaning": "เต้านม","englishmeaning":"Breast"}
+        ,{"word": "Poitrine (nf.)" , "phonetic":"[pwatʀin]","thaimeaning": "หน้าอก","englishmeaning":"Chest"}
+        ,{"word": "Coude (nm.)" , "phonetic":"[kud]","thaimeaning": "ข้อศอก","englishmeaning":"Elbow"}
+        ,{"word": "Main (nf.)" , "phonetic":"[mɛ̃]","thaimeaning": "มือ","englishmeaning":"Hand"}
+        ,{"word": "Doigt (nm.)" , "phonetic":"[dwa]","thaimeaning": "นิ้วมือ","englishmeaning":"Finger"}
+        ,{"word": "Ongle (nm.)" , "phonetic":"[ɔ̃gl]","thaimeaning": "เล็บมือ","englishmeaning":"Fingernail"}
+        ,{"word": "Avantbras (nm.)" , "phonetic":"[avɑ̃bʀɑ]","thaimeaning": "แขนท่อนล่าง","englishmeaning":"Forearm"}
+        ,{"word": "Jointure (nf.)" , "phonetic":"[ʒwɛ̃tyʀ]","thaimeaning": "ข้อนิ้วมือ","englishmeaning":"Knuckle"}
+        ,{"word": "Nombril (nm.)" , "phonetic":"[nɔ̃bʀi(l)]","thaimeaning": "สะดือ","englishmeaning":"Navel, belly button"}
+        ,{"word": "Cou (nm.)" , "phonetic":"[ku]","thaimeaning": "คอ","englishmeaning":"Neck"}
+        ,{"word": "Mamelon (nm.)" , "phonetic":"[mam(ə)lɔ̃]","thaimeaning": "หัวนม","englishmeaning":"Nipple"}
+        ,{"word": "Paume (nf.)" , "phonetic":"[pom]","thaimeaning": "ฝ่ามือ","englishmeaning":"Palm"}
+        ,{"word": "Épaule (nf.)" , "phonetic":"[epol]","thaimeaning": "หัวไหล่","englishmeaning":"Shoulder"}
+        ,{"word": "Gorge (nf.)" , "phonetic":"[gɔʀʒ]","thaimeaning": "ลำคอ","englishmeaning":"Throat"}
+        ,{"word": "Pouce (nm.)" , "phonetic":"[pus]","thaimeaning": "นิ้วหัวแม่มือ","englishmeaning":"Thumb"}
+        ,{"word": "Taille (nf.)" , "phonetic":"[tɑj]","thaimeaning": "เอว","englishmeaning":"Waist"}
+        ,{"word": "Poignet (nm.)" , "phonetic":"[pwaɲɛ]","thaimeaning": "ข้อมือ","englishmeaning":"Wrist"}],
+    "lowerorgan":[{"word": "Cheville (nf.)" , "phonetic":"[ʃ(ə)vij]","thaimeaning": "ข้อเท้า","englishmeaning":"Ankle"}
+        ,{"word": "Anus (nm.)" , "phonetic":"[anys]","thaimeaning": "ทวารหนัก","englishmeaning":"Anus"}
+        ,{"word": "Ventre (nm.)" , "phonetic":"[vɑ̃tʀ]","thaimeaning": "หน้าท้อง","englishmeaning":"Belly"}
+        ,{"word": "Gros orteil (nm.)" , "phonetic":"[gʀosɔʀtɛj]","thaimeaning": "นิ้วหัวแม่เท้า","englishmeaning":"Big toe"}
+        ,{"word": "Mollet (nm.)" , "phonetic":"[mɔlɛ]","thaimeaning": "น่อง","englishmeaning":"Calf"}
+        ,{"word": "Pied (nm.)" , "phonetic":"[pje]","thaimeaning": "เท้า","englishmeaning":"Foot"}
+        ,{"word": "Organes génitaux (nmpl.)" , "phonetic":"[ɔʀgan] [ʒenito]","thaimeaning": "อวัยวะเพศ","englishmeaning":"Genitals"}
+        ,{"word": "Aine (nf.)" , "phonetic":"[ɛn]","thaimeaning": "ขาหนีบ","englishmeaning":"Groin"}
+        ,{"word": "Talon (nm.)" , "phonetic":"[talɔ̃]","thaimeaning": "ส้นเท้า","englishmeaning":"Heel"}
+        ,{"word": "Hanche (nf.)" , "phonetic":"[ˈɑ̃ʃ]","thaimeaning": "สะโพก","englishmeaning":"Hip"}
+        ,{"word": "Genou (nm.)" , "phonetic":"[ʒ(ə)nu]","thaimeaning": "หัวเข่า","englishmeaning":"Knee"}
+        ,{"word": "Jambe (nf.)" , "phonetic":"[ʒɑ̃b]","thaimeaning": "ขา","englishmeaning":"Leg"}
+        ,{"word": "Pénis (nm.)" , "phonetic":"[penis]","thaimeaning": "อวัยวะเพศชาย","englishmeaning":"Penis"}
+        ,{"word": "Tibia (nm.)" , "phonetic":"[tibja]","thaimeaning": "หน้าแข้ง","englishmeaning":"Shin"}
+        ,{"word": "Plante (nf.)" , "phonetic":"[plɑ̃t]","thaimeaning": "ฝ่าเท้า","englishmeaning":"Sole"}
+        ,{"word": "Testicule (nm.)" , "phonetic":"[tɛstikyl]","thaimeaning": "อัณฑะ","englishmeaning":"Testicles"}
+        ,{"word": "Cuisse (nf.)" , "phonetic":"[kɥis]","thaimeaning": "ต้นขา","englishmeaning":"Thigh"}
+        ,{"word": "Orteil (nm.)" , "phonetic":"[ɔʀtɛj]","thaimeaning": "นิ้วเท้า","englishmeaning":"Toe"}
+        ,{"word": "Ongle de pied (nm.)" , "phonetic":"[ɔ̃gl] [də] [pje]","thaimeaning": "เล็บเท้า","englishmeaning":"Toenail"}
+        ,{"word": "Vagin (nm.)" , "phonetic":"[vaʒɛ̃]","thaimeaning": "ช่องคลอด","englishmeaning":"Vagina"}],
+    "eye":[{"word": "Cornée (nf.)" , "phonetic":"[kɔʀne]","thaimeaning": "แก้วตา","englishmeaning":"Cornea"}
+        ,{"word": "Orbite (nf.)" , "phonetic":"[ɔʀbit]","thaimeaning": "เบ้าตา","englishmeaning":"Eye socket"}
+        ,{"word": "Globe oculaire (nm.)" , "phonetic":"[glɔb] [ɔkylɛʀ]","thaimeaning": "ลูกตา","englishmeaning":"Eyeball"}
+        ,{"word": "Iris (nm.)" , "phonetic":"[iʀis]","thaimeaning": "ม่านตา","englishmeaning":"Iris"}
+        ,{"word": "Rétine (nf.)" , "phonetic":"[ʀetin]","thaimeaning": "จอประสาทตา","englishmeaning":"Retina"}
+        ,{"word": "Pupille (nf.)" , "phonetic":"[pypij]","thaimeaning": "รูม่านตา","englishmeaning":"Pupil"}],
+    "innerorgan":[{"word": "Artère (nf.)" , "phonetic":"[aʀtɛʀ]","thaimeaning": "หลอดเลือดแดง","englishmeaning":"Artery"}
+        ,{"word": "Appendice (nm.)" , "phonetic":"[apɛ̃dis]","thaimeaning": "ไส้ติ่ง","englishmeaning":"Appendix"}
+        ,{"word": "Vessie (nf.)" , "phonetic":"[vesi]","thaimeaning": "กระเพาะปัสสาวะ","englishmeaning":"Bladder"}
+        ,{"word": "Vaisseau sanguine (nm.)" , "phonetic":"[vɛso] [sɑ̃gɛ̃, in]","thaimeaning": "เส้นเลือด","englishmeaning":"Blood vessel"}
+        ,{"word": "Cerveau (nm.)" , "phonetic":"[sɛʀvo]","thaimeaning": "สมอง","englishmeaning":"Brain"}
+        ,{"word": "Cartilage (nm.)" , "phonetic":"[kaʀtilaʒ]","thaimeaning": "กระดูกอ่อน","englishmeaning":"Cartilage"}
+        ,{"word": "Côlon (nm.)" , "phonetic":"[kolɔ̃]","thaimeaning": "ลำไส้ใหญ่","englishmeaning":"Colon"}
+        ,{"word": "Vésicule biliaire (nf.)" , "phonetic":"[vezikyl] [biljɛʀ]","thaimeaning": "ถุงน้ำดี","englishmeaning":"Gall bladder"}
+        ,{"word": "Cœur (nm.)" , "phonetic": "[kœʀ]","thaimeaning": "หัวใจ","englishmeaning":"Heart"}
+        ,{"word": "Intestin (nm.)" , "phonetic":"[ɛ̃tɛstɛ̃, in]","thaimeaning": "ลำไส้","englishmeaning":"Intestines"}
+        ,{"word": "Rein (nm.)" , "phonetic":"[ʀɛ̃]","thaimeaning": "ไต","englishmeaning":"Kidneys"}
+        ,{"word": "Ligament (nm.)" , "phonetic":"[ligamɑ̃]","thaimeaning": "เอ็น","englishmeaning":"Ligament"}
+        ,{"word": "Foie (nm.)" , "phonetic":"[fwa]","thaimeaning": "ตับ","englishmeaning":"Liver"}
+        ,{"word": "Poumon (nm.)" , "phonetic":"[pumɔ̃]","thaimeaning": "ปอด","englishmeaning":"Lungs"}
+        ,{"word": "œsophage (nm.)" , "phonetic":"[ezɔfaʒ]","thaimeaning": "หลอดอาหาร","englishmeaning":"Oesophagus"}
+        ,{"word": "Pancréas (nm.)" , "phonetic":"[pɑ̃kʀeɑs]","thaimeaning": "ตับอ่อน","englishmeaning":"Pancreas"}
+        ,{"word": "Organe (nm.)" , "phonetic":"[ɔʀgan]","thaimeaning": "อวัยวะ","englishmeaning":"Organ"}
+        ,{"word": "Prostate (nf.)" , "phonetic":"[pʀɔstat]","thaimeaning": "ต่อมลูกหมาก","englishmeaning":"Prostate gland, Prostate"}
+        ,{"word": "Rectum (nm.)" , "phonetic":"[ʀɛktɔm]","thaimeaning": "ช่องทวารหนัก","englishmeaning":"Rectum"}
+        ,{"word": "Rate (nf.)" , "phonetic":"[ʀat]","thaimeaning": "ม้าม","englishmeaning":"Spleen"}
+        ,{"word": "Tendon (nm.)" , "phonetic":"[tɑ̃dɔ̃]","thaimeaning": "เส้นเอ็น","englishmeaning":"Tendon"}
+        ,{"word": "Veine (nf.)" , "phonetic":"[vɛn]","thaimeaning": "หลอดเลือดดำ","englishmeaning":"Vein"}
+        ,{"word": "Trachée (nf.)" , "phonetic":"[tʀaʃe]","thaimeaning": "หลอดลม","englishmeaning":"Windpipe"}
+        ,{"word": "Utérus (nm.)" , "phonetic":"[yteʀys]","thaimeaning": "มดลูก","englishmeaning":"Womb, Uterus"}],
+    "bones":[{"word": "Clavicule (nf.)" , "phonetic":"[klavikyl]","thaimeaning": "กระดูกไหปลาร้า","englishmeaning":" Collarbone, clavicle"}
+        ,{"word": "Fémur (nm.)" , "phonetic":"[femyʀ]","thaimeaning": "กระดูกต้นขา","englishmeaning":"Thigh bone, femur"}
+        ,{"word": "Humérus (nm.)" , "phonetic":"[ymeʀys]","thaimeaning": "กระดูกต้นแขน","englishmeaning":"Humerus"}
+        ,{"word": "Rotule (nf.)" , "phonetic":"[ʀɔtyl]","thaimeaning": "กระดูกสะบ้า","englishmeaning":"Kneecap"}
+        ,{"word": "Pelvis (nm.)" , "phonetic":"[pɛlvɪs]","thaimeaning": "กระดูกเชิงกราน","englishmeaning":"Pelvis"}
+        ,{"word": "Côte (nf.)" , "phonetic":"[kot]","thaimeaning": "ซี่โครง","englishmeaning":"Rib"}
+        ,{"word": "Cage thoracique (nf.)" , "phonetic":"[kaʒ] [tɔʀasik]","thaimeaning": "กระดูกซี่โครง","englishmeaning":"Rib cage"}
+        ,{"word": "Squelette (nm.)" , "phonetic":"[skəlɛt]","thaimeaning": "โครงกระดูก","englishmeaning":"Skeleton"}
+        ,{"word": "Crâne (nm.)" , "phonetic":"[kʀɑn]","thaimeaning": "กระโหลก","englishmeaning":"Skull"}
+        ,{"word": "Colonne vertébrale (nf.)" , "phonetic":"[kɔlɔn vɛʀtebʀal]","thaimeaning": "กระดูกสันหลัง","englishmeaning":"Spine, backbone"}
+        ,{"word": "Vertèbre (nf.)" , "phonetic":"[vɛʀtɛbʀ]","thaimeaning": "กระดูกสันหลัง","englishmeaning":"Vertebra"}],
+    "liquids":[{"word": "Bile (nf.)" , "phonetic":"[bil]","thaimeaning": "น้ำดี","englishmeaning":"Bile"}
+        ,{"word": "Sang (nm.)" , "phonetic":"[sɑ̃]","thaimeaning": "เลือด","englishmeaning":"Blood"}
+        ,{"word": "Mucus (n.)" , "phonetic":"[mykys]","thaimeaning": "เมือก","englishmeaning":"Mucus"}
+        ,{"word": "Glaire (nf.)" , "phonetic":"[glɛʀ]","thaimeaning": "เสมหะ","englishmeaning":"Phlegm"}
+        ,{"word": "Salive (nf.)" , "phonetic":"[saliv]","thaimeaning": "น้ำลาย","englishmeaning":"Saliva, spit"}
+        ,{"word": "Semence (nf.)" , "phonetic":"[s(ə)mɑ̃s]","thaimeaning": "น้ำอสุจิ","englishmeaning":"Semen"}
+        ,{"word": "Sueur (nf.)" , "phonetic":"[sɥœʀ]","thaimeaning": "เหงื่อ","englishmeaning":"Sweat, perspiration"}
+        ,{"word": "Larme (nf.)" , "phonetic":"[laʀm]","thaimeaning": "น้ำตา","englishmeaning":"Tears"}
+        ,{"word": "Urine (nf.)" , "phonetic":"[yʀin]","thaimeaning": "ปัสสาวะ","englishmeaning":"Urine"}
+        ,{"word": "vomi (nm.)" , "phonetic":"[vɔmi]","thaimeaning": "อาเจียน","englishmeaning":"Vomit"}],
+    "person":[{"word": "Docteur (nm.)" , "phonetic":"[dɔktœʀ]","thaimeaning": "หมอ","englishmeaning":"Doctor"}
+        ,{"word": "Infirmier, Infirmière (nm., nf.)" , "phonetic":"[ɛ̃fiʀmje, jɛʀ]","thaimeaning": "นางพยาบาล","englishmeaning":"Nurse"}
+        ,{"word": "Spécialiste de médecine interne" , "phonetic":"[spesjalist] [də] [med(ə)sin] [ɛ̃tɛʀn]","thaimeaning": "อายุรแพทย์","englishmeaning":"Internist"}
+        ,{"word": "Médecin (nm.)" , "phonetic":"[med(ə)sɛ̃]","thaimeaning": "อายุรแพทย์","englishmeaning":"Physician"}
+        ,{"word": "Pédiatre (nmf.)" , "phonetic":"[pedjatʀ]","thaimeaning": "กุมารแพทย์","englishmeaning":"Pediatrician, Pediatrist"}
+        ,{"word": "Gynécologue (nmf.)" , "phonetic":"[ʒinekɔlɔg]","thaimeaning": "นรีแพทย์","englishmeaning":"Gynecologist"}
+        ,{"word": "Obstétricien (nm.)" , "phonetic":"[ɔpstetʀisjɛ̃, jɛn]","thaimeaning": "สูติแพทย์","englishmeaning":"Obstetrician"}
+        ,{"word": "Neurologue (nm.)" , "phonetic":"[nøʀɔlɔg]","thaimeaning": "นักประสาทวิทยา","englishmeaning":"Neurologist"}
+        ,{"word": "Psychiatre (nmf.)" , "phonetic":"[psikjatʀ]","thaimeaning": "จิตแพทย์","englishmeaning":"Psychiatrist"}
+        ,{"word": "Ophtalmologue (nmf.)" , "phonetic":"[ɔftalmɔlɔg]","thaimeaning": "จักษุแพทย์","englishmeaning":"Oculist"}
+        ,{"word": "Dentiste (nmf.)" , "phonetic":"[dɑ̃tist]","thaimeaning": "หมอฟัน","englishmeaning":"Dentist"}
+        ,{"word": "Chirurgien, Chirurgienne (nm., nf.)" , "phonetic":"[ʃiʀyʀʒjɛ̃, jɛn]","thaimeaning": "ศัลยแพทย์","englishmeaning":"Surgeon"}
+        ,{"word": "Anesthésiste (nmf.)" , "phonetic":"[anɛstezist]","thaimeaning": "วิสัญญีแพทย์","englishmeaning":"Anesthetist"}
+        ,{"word": "Patient, Patiente (nm., nf.)" , "phonetic":"[pasjɑ̃, jɑ̃t]","thaimeaning": "ผู้ป่วย","englishmeaning":"Patient"}
+        ,{"word": "Patient hospitalisé, Patiente hospitalisée (nm, nf.)" , "phonetic":"[pasjɑ̃] [ɔspitalize], [pasjɑ̃t] [ɔspitalize]","thaimeaning": "ผู้ป่วยใน","englishmeaning":"In Patient"}
+        ,{"word": "Patient en consultation externe, Patiente consultation externe (nm, nf.)" , "phonetic":"[pasjɑ̃] [ɑ̃] [kɔ̃syltasjɔ̃] [ɛkstɛʀn], pasjɑ̃t] [ɑ̃] [kɔ̃syltasjɔ̃] [ɛkstɛʀn]","thaimeaning": "ผู้ป่วยนอก","englishmeaning":"Out Patient"}
+        ]
+    
 }

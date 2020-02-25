@@ -7,27 +7,63 @@ function Category() {
           <div className="category-container">
                 <div className="vertical-container">
                     <div className="horizontal-container">
-                    <Link to="/:category">
-                      <div className="box" />
+                    <Link to="/diceases">
+                      <div className="box">
+                      <p>โรคและอาการไม่สบาย</p>
+                      </div>
                     </Link>
-                    <Link to="/:category">
-                      <div className="box" />
-                    </Link>
-                    </div>
-                    <div className="horizontal-container">
-                    <Link to="/:category">
-                      <div className="box" />
-                    </Link>
-                    <Link to="/:category">
-                      <div className="box" />
+                    <Link to="/departments">
+                      <div className="box">
+                        <p>ชื่อแผนกและห้องตรวจ</p>
+                      </div>
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/:category">
-                      <div className="box" />
+                    <Link to="/head">
+                      <div className="box">
+                        <p>อวัยวะส่วนหัวและใบหน้า</p>
+                      </div>
                     </Link>
-                    <Link to="/:category">
-                      <div className="box" />
+                    <Link to="/upperorgan">
+                      <div className="box">
+                        <p>อวัยวะส่วนบน</p>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/lowerorgan">
+                      <div className="box">
+                        <p>อวัยวะส่วนล่าง</p>
+                      </div>
+                    </Link>
+                    <Link to="/eye">
+                      <div className="box">
+                        <p>ส่วนต่างๆของดวงตา</p>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/innerorgan">
+                      <div className="box">
+                        <p>อวัยวะภายในร่างกาย</p>
+                      </div>
+                    </Link>
+                    <Link to="/bones">
+                      <div className="box">
+                        <p>กระดูกในร่างกาย</p>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/liquids">
+                      <div className="box">
+                        <p>ของเหลวในร่างกาย</p>
+                      </div>
+                    </Link>
+                    <Link to="/person">
+                      <div className="box">
+                        <p>ผู้ป่วยและบุคลากรทางการแพทย์</p>
+                      </div>
                     </Link>
                     </div>
                 </div>

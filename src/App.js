@@ -14,7 +14,7 @@ function App() {
         <Switch>
           {/* <Translation /> */}
           <Route path="/:category/:index" component={Word} />
-          <Route path="/:category"><Section1 /></Route>
+          <Route path="/:category" component={Section1} />
           <Route path="/"><Category /></Route>
         </Switch>
       </Router>
