@@ -7,98 +7,98 @@ function Category() {
           <div className="category-container">
                 <div className="vertical-container">
                     <div className="horizontal-container">
-                    <Link to="/diceases">
+                    <Link to="/category/diceases">
                       <div className="box">
-                      <p>โรคและอาการไม่สบาย</p>
+                      <h1>โรคและอาการไม่สบาย</h1>
                       </div>
                     </Link>
-                    <Link to="/departments">
+                    <Link to="/category/departments">
                       <div className="box">
-                        <p>ชื่อแผนกและห้องตรวจ</p>
-                      </div>
-                    </Link>
-                    </div>
-                    <div className="horizontal-container">
-                    <Link to="/head">
-                      <div className="box">
-                        <p>อวัยวะส่วนหัวและใบหน้า</p>
-                      </div>
-                    </Link>
-                    <Link to="/upperorgan">
-                      <div className="box">
-                        <p>อวัยวะส่วนบน</p>
+                        <h1>ชื่อแผนกและห้องตรวจ</h1>
                       </div>
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/lowerorgan">
+                    <Link to="/category/head">
                       <div className="box">
-                        <p>อวัยวะส่วนล่าง</p>
+                        <h1>อวัยวะส่วนหัวและใบหน้า</h1>
                       </div>
                     </Link>
-                    <Link to="/eye">
+                    <Link to="/category/upperorgan">
                       <div className="box">
-                        <p>ส่วนต่างๆของดวงตา</p>
-                      </div>
-                    </Link>
-                    </div>
-                    <div className="horizontal-container">
-                    <Link to="/innerorgan">
-                      <div className="box">
-                        <p>อวัยวะภายในร่างกาย</p>
-                      </div>
-                    </Link>
-                    <Link to="/bones">
-                      <div className="box">
-                        <p>กระดูกในร่างกาย</p>
+                        <h1>อวัยวะส่วนบน</h1>
                       </div>
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/liquids">
+                    <Link to="/category/lowerorgan">
                       <div className="box">
-                        <p>ของเหลวในร่างกาย</p>
+                        <h1>อวัยวะส่วนล่าง</h1>
                       </div>
                     </Link>
-                    <Link to="/person">
+                    <Link to="/category/eye">
                       <div className="box">
-                        <p>ผู้ป่วยและบุคลากรทางการแพทย์</p>
-                      </div>
-                    </Link>
-                    </div>
-                    <div className="horizontal-container">
-                    <Link to="/equipment">
-                      <div className="box">
-                        <p>ยาและอุปกรณ์การแพทย์</p>
-                      </div>
-                    </Link>
-                    <Link to="/insurance">
-                      <div className="box">
-                        <p>ประกันภัย</p>
+                        <h1>ส่วนต่างๆของดวงตา</h1>
                       </div>
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/avoir">
+                    <Link to="/category/innerorgan">
                       <div className="box">
-                        <p>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา avoir</p>
+                        <h1>อวัยวะภายในร่างกาย</h1>
                       </div>
                     </Link>
-                    <Link to="/être">
+                    <Link to="/category/bones">
                       <div className="box">
-                        <p>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา être</p>
+                        <h1>กระดูกในร่างกาย</h1>
                       </div>
                     </Link>
                     </div>
                     <div className="horizontal-container">
-                    <Link to="/ache">
+                    <Link to="/category/liquids">
                       <div className="box">
-                        <p>สำนวนที่ใช้บอกอาการเจ็บปวดอวัยวะต่างๆ</p>
+                        <h1>ของเหลวในร่างกาย</h1>>
                       </div>
                     </Link>
-                    <Link to="/allergy">
+                    <Link to="/category/person">
                       <div className="box">
-                        <p>สำนวนที่ใช้บอกอาการภูมิแพ้ต่างๆ</p>
+                        <h1>ผู้ป่วยและบุคลากรทางการแพทย์</h1>>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/category/equipment">
+                      <div className="box">
+                        <h1>ยาและอุปกรณ์การแพทย์</h1>
+                      </div>
+                    </Link>
+                    <Link to="/category/insurance">
+                      <div className="box">
+                        <h1>ประกันภัย</h1>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/category/avoir">
+                      <div className="box">
+                        <h1>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา avoir</h1>
+                      </div>
+                    </Link>
+                    <Link to="/category/être">
+                      <div className="box">
+                        <h1>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา être</h1>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/category/ache">
+                      <div className="box">
+                        <h1>สำนวนที่ใช้บอกอาการเจ็บปวดอวัยวะต่างๆ</h1>
+                      </div>
+                    </Link>
+                    <Link to="/category/allergy">
+                      <div className="box">
+                        <h1>สำนวนที่ใช้บอกอาการภูมิแพ้ต่างๆ</h1>
                       </div>
                     </Link>
                     </div>

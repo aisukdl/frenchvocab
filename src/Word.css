@@ -1,0 +1,14 @@
+.header{
+    background-color: #0174D0;
+    padding-left: 10px;
+    height: 40px;
+    padding:10px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+}
+
+.word-container{
+    background-color: #fff;
+    color: #0174D0;
+}

@@ -1,14 +1,15 @@
 .box {
-    background-color: pink;
+    background-color: #FFF;
     width: 130px;
-    height: 90px;
+    height: 130px;
     border-radius: 10px;
     margin: 10px;
     text-align: center;
-    padding: 30px 10px;
+    padding: 10px 10px;
+    font-family: THSarabunNew;
 }
 
-.container{
+.category-container{
     padding: 40px 20px;
     position: relative;
     height: calc(100% - 80px);
@@ -35,9 +36,14 @@
     display: flex;
     justify-content: space-around;
     margin-top: auto;
+    padding-bottom: 20px;
 }
 
 a ,a:hover, a:visited{
     text-decoration: none;
-    color: #333;
+    color: #0174D0;
+}
+
+.fas {
+    color:#fff;
 }
