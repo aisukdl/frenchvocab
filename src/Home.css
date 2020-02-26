@@ -9,8 +9,18 @@
 .home-container {
     background-color: #fff;
     padding : 20px;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 70% auto;
 }
 
 img {
     width: 50%;
+}
+
+.white {
+    background-color: #fff;
+    opacity: 0.8;
 }
