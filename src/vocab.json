@@ -313,7 +313,7 @@
         ,{"word": "Avoir mal aux jambs" , "phonetic":"/avwaʀ mal o ʒɑ̃b/","thai-meaning": "ปวดขา","english-meaning":"Have legs pain"}
         ,{"word": "Avoir mal à l’oreille" , "phonetic":"/avwaʀ mal a lɔʀɛj/","thai-meaning": "ปวดหู","english-meaning":"Have earache"}
         ,{"word": "Avoir mal partout" , "phonetic":"/avwaʀ mal paʀtu/","thai-meaning": "ปวดไปหมดทั้งตัว","english-meaning":"Be ache all over"}],
-    "allegy":[{"word": "être allergique aux fruits de mer" , "phonetic":"/ɛtʀ alɛʀʒik o fʀɥi də mɛʀ/","thai-meaning": "แพ้อาหารทะเล","english-meaning":"Be allergic to seafood"}
+    "allergy":[{"word": "être allergique aux fruits de mer" , "phonetic":"/ɛtʀ alɛʀʒik o fʀɥi də mɛʀ/","thai-meaning": "แพ้อาหารทะเล","english-meaning":"Be allergic to seafood"}
         ,{"word": "être allergique aux crevettes" , "phonetic":"/ɛtʀ alɛʀʒik o kʀəvɛt/","thai-meaning": "แพ้กุ้ง","english-meaning":"Be allergic to shrimp"}
         ,{"word": "être allergique à la poussière " , "phonetic":"/ɛtʀ alɛʀʒik a la pusjɛʀ/","thai-meaning": "แพ้ฝุ่น","english-meaning":"Be allergic to dust"}
         ,{"word": "être allergique aux polis d’animaux" , "phonetic":"/ɛtʀ alɛʀʒik o pɔli danimo/","thai-meaning": "แพ้ขนสัตว์","english-meaning":"Be allergic to animal fur"}

@@ -66,6 +66,42 @@ function Category() {
                       </div>
                     </Link>
                     </div>
+                    <div className="horizontal-container">
+                    <Link to="/equipment">
+                      <div className="box">
+                        <p>ยาและอุปกรณ์การแพทย์</p>
+                      </div>
+                    </Link>
+                    <Link to="/insurance">
+                      <div className="box">
+                        <p>ประกันภัย</p>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/avoir">
+                      <div className="box">
+                        <p>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา avoir</p>
+                      </div>
+                    </Link>
+                    <Link to="/être">
+                      <div className="box">
+                        <p>สำนวนที่ใช้บอกอาการที่ใช้กับกริยา être</p>
+                      </div>
+                    </Link>
+                    </div>
+                    <div className="horizontal-container">
+                    <Link to="/ache">
+                      <div className="box">
+                        <p>สำนวนที่ใช้บอกอาการเจ็บปวดอวัยวะต่างๆ</p>
+                      </div>
+                    </Link>
+                    <Link to="/allergy">
+                      <div className="box">
+                        <p>สำนวนที่ใช้บอกอาการภูมิแพ้ต่างๆ</p>
+                      </div>
+                    </Link>
+                    </div>
                 </div>
           </div>
             <div className="menu">
