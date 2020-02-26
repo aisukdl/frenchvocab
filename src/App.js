@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import Category from './Category';
-import Section1 from './Section1';
-import Translation from './Translation';
+import WordList from './WordList';
 import { BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import Word from './Word'
 
@@ -12,9 +11,8 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          {/* <Translation /> */}
           <Route path="/:category/:index" component={Word} />
-          <Route path="/:category" component={Section1} />
+          <Route path="/:category" component={WordList} />
           <Route path="/"><Category /></Route>
         </Switch>
       </Router>

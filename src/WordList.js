@@ -1,10 +1,10 @@
 import React from 'react';
 import vocab from './vocab.json';
-import './section1.css'
-import { Route,Link } from 'react-router-dom';
+import './WordList.css'
+import {Link } from 'react-router-dom';
 
 
-function Section1(prop) {
+function WordList(prop) {
   function getWords(prop){
     const words = [];
     for (let index = 0; index < vocab[prop.match.params.category].length; index++) {
@@ -17,10 +17,10 @@ function Section1(prop) {
     return (
       <div className="container">
         {words.map((item,id) => {
-          return <p><Link to={`/:category/${id}`}>{item}</Link></p>;
+          return <p><Link to={`/${prop.match.params.category}/${id}`}>{item}</Link></p>;
         })}
       </div>
     );
   }
   
-  export default Section1;
+  export default WordList;

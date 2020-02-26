@@ -1,9 +1,11 @@
 .box {
     background-color: pink;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 90px;
     border-radius: 10px;
     margin: 10px;
+    text-align: center;
+    padding: 30px 10px;
 }
 
 .container{
@@ -33,4 +35,9 @@
     display: flex;
     justify-content: space-around;
     margin-top: auto;
+}
+
+a ,a:hover, a:visited{
+    text-decoration: none;
+    color: #333;
 }
