@@ -12,7 +12,7 @@ function Word(prop) {
         <div className="word-container">
         <h1 style={{fontFamily: "Source Sans Pro"}}>{vocab[prop.match.params.category][prop.match.params.index].word}</h1>
         <h4 style={{fontFamily: "Source Sans Pro"}}>{vocab[prop.match.params.category][prop.match.params.index].phonetic}</h4>
-        <h2 style={{fontFamily: "THSarabunNew"}}>{vocab[prop.match.params.category][prop.match.params.index].thaimeaning}</h2>
+        <h2 style={{fontFamily: "THSarabunNew",color:"#0174D0"}}>{vocab[prop.match.params.category][prop.match.params.index].thaimeaning}</h2>
         <h3  style={{fontFamily: "Source Sans Pro"}}>{vocab[prop.match.params.category][prop.match.params.index].englishmeaning}</h3>
         </div>
       </div>
