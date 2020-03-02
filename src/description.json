@@ -1,18 +1,18 @@
 {
     "avoir":{"s1":"สำนวนที่ใช้บอกอาการที่ใช้กับกริยา​ avoir",
         "s2":"บอกอาการที่ใช้ avoir",
-        "s3":"Subject + V.avoir + maladie",
+        "s3":"Sujet + V.avoir + maladie",
         "s4":"Ex : J’ai de la fièvre."},
     "être":{"s1":"สำนวนที่ใช้บอกอาการที่ใช้​ être",
         "s2":"บอกอาการที่ใช้ être",
-        "s3":"Subject + V.être + maladie",
+        "s3":"Sujet + V.être + maladie",
         "s4":"Ex : Je suis fatigué."},
     "allergy":{"s1":"สำนวนที่ใช้บอกอาการภูมิแพ้​ต่างๆ",
     "s2":"บอกอาการแพ้",
-    "s3":"Subject + être allergique à + quelque chose",
+    "s3":"Sujet + être allergique à + quelque chose",
     "s4":"Ex. Je suis allergique aux crevettes."},
     "ache":{"s1":"สำนวนที่ใช้บอกอาการเจ็บปวดอวัยวะ",
     "s2":"บอกอาการเจ็บอวัยวะ",
-    "s3":"Subject + V.avoir mal à + organe",
+    "s3":"Sujet + V.avoir mal à + organe",
     "s4":"Ex : J’ai mal à la tête."}
 }
